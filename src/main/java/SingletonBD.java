@@ -17,8 +17,17 @@ public class SingletonBD {
         System.out.println("");
     }
 
-    public static void atualizarUsuario(){
-        System.out.println("Usuário atualizado com sucesso!");
+    public static void atualizarFirmware(){
+        System.out.println("???? com sucesso!");
+        System.out.println("");
+    }
+
+    public static void status(){
+        System.out.println("NAME   | STATUS");
+        System.out.println("ONU 1    ACTIVE");
+        System.out.println("ONU 2    UNKNOW");
+        System.out.println("ONU 3    ACTIVE");
+        System.out.println("ONU 4    BLOCKED");
         System.out.println("");
     }
 

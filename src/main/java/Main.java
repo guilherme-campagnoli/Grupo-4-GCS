@@ -28,7 +28,10 @@ public class Main {
                 SingletonBD.deletarONU();
             }
             else if(opcao == 4) {
-                SingletonBD.atualizarUsuario();
+                SingletonBD.atualizarFirmware();
+            }
+            else if(opcao == 5) {
+                SingletonBD.status();
             }
             else if(opcao == 9) {
                 System.exit(0);
