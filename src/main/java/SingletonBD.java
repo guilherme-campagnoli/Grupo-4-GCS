@@ -22,8 +22,11 @@ public class SingletonBD {
         System.out.println("");
     }
 
-    public static void listarUsuarios(){
-        System.out.println("Usuário listado com sucesso!");
+    public static void listarONUs(){
+        System.out.println("ONU1");
+        System.out.println("ONU2");
+        System.out.println("ONU3");
+        System.out.println("ONU4");
         System.out.println("");
     }
 

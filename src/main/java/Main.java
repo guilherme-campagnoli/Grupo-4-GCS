@@ -22,7 +22,7 @@ public class Main {
                 SingletonBD.descobrirONU();
             }
             else if(opcao == 2) {
-                SingletonBD.listarUsuarios();
+                SingletonBD.listarONUs();
             }
             else if(opcao == 3) {
                 SingletonBD.deletarUsuario();
