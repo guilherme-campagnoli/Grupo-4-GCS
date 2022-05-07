@@ -17,8 +17,11 @@ public class SingletonBD {
         System.out.println("");
     }
 
-    public static void atualizarUsuario(){
-        System.out.println("Usuário atualizado com sucesso!");
+    public static void atualizarFirmware(){
+        System.out.println("ONU1: Firmware 1.1.2 atualizado com sucesso!");
+        System.out.println("ONU2: Firmware 1.1.2 atualizado com sucesso!");
+        System.out.println("ONU3: Firmware 1.1.2 atualizado com sucesso!");
+        System.out.println("ONU4: Firmware 1.1.2 atualizado com sucesso!");
         System.out.println("");
     }
 
