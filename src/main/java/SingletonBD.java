@@ -8,7 +8,7 @@ public class SingletonBD {
     private SingletonBD() { }
 
     public static void descobrirONU(){
-        System.out.println("Usuário cadastrado com sucesso!");
+        System.out.println("ONU encontrada com sucesso!");
         System.out.println("");
     }
 
