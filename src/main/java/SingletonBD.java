@@ -12,11 +12,6 @@ public class SingletonBD {
         System.out.println("");
     }
 
-    public static void deletarUsuario(){
-        // teste Lais - adicionar usuario
-
-    }
-
     public static void atualizarUsuario(){
         System.out.println("Usuário atualizado com sucesso!");
         System.out.println("");
@@ -27,4 +22,8 @@ public class SingletonBD {
         System.out.println("");
     }
 
+    public static void deletarONU() {
+        System.out.println("ONU removida com sucesso!");
+        System.out.println("");
+    }
 }
