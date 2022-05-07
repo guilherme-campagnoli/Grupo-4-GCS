@@ -3,11 +3,11 @@ import java.util.ArrayList;
 
 public class SingletonBD {
 
-    private static ArrayList<Usuario> listaUsuario = new ArrayList<Usuario>();
+    private static ArrayList<ONU> listaUsuario = new ArrayList<ONU>();
 
     private SingletonBD() { }
 
-    public static void adicionarUsuario(){
+    public static void descobrirONU(){
         System.out.println("Usuário cadastrado com sucesso!");
         System.out.println("");
     }

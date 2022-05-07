@@ -9,16 +9,17 @@ public class Main {
         while(opcao != 9) {
 
             System.out.println("**** MENU ****");
-            System.out.println("(1) Cadastrar Usuário");
-            System.out.println("(2) Listar Usuario");
-            System.out.println("(3) Deletar Usuário");
-            System.out.println("(4) Atualizar Usuário\n");
+            System.out.println("(1) Discover ONU");
+            System.out.println("(2) Listar ONU");
+            System.out.println("(3) Deletar ONU");
+            System.out.println("(4) Atualizar Firmware ONU");
+            System.out.println("(5) Status ONU\n");
             System.out.println("(9) Sair\n");
             System.out.print("Opção: ");
             opcao = sc.nextInt();
 
             if(opcao == 1) {
-                SingletonBD.adicionarUsuario();
+                SingletonBD.descobrirONU();
             }
             else if(opcao == 2) {
                 SingletonBD.listarUsuarios();
